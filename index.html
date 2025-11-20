@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Weight Calculator</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-bar">
+  <img src="images/logo.png" alt="Nepean Rubber & Plastics" class="company-logo">
+  <h1 class="page-title">Weight Calculator</h1>
+</div>
+
+    <div class="two-column">
+      <!-- Left: Calculator -->
+      <div class="panel">
+        <h2>Calculator</h2>
+
+        <label for="ap">Aperture (OPG) - mm</label>
+        <input id="ap" type="number" step="0.01" min="0" />
+
+        <label for="dia">Wire DIA - mm</label>
+        <input id="dia" type="number" step="0.01" min="0" />
+
+        <label for="w">Width (Trim Dim 1) - mm</label>
+        <input id="w" type="number" step="0.1" min="0" />
+
+        <label for="l">Length (Trim Dim 2) - mm</label>
+        <input id="l" type="number" step="0.1" min="0" />
+
+        <button onclick="calc()">Calculate Weight</button>
+
+        <div class="result">
+          Weight (kg): <span id="out">-</span>
+        </div>
+        <div class="note">
+        Rounded to 2 decimal places. History clears when you close/reload this page.
+        </div>
+      </div>
+
+      <!-- Right: History -->
+      <div class="panel">
+        <h2>Calculation History</h2>
+        <ul id="history-list"></ul>
+        <div id="history-empty" class="history-empty">
+          No calculations yet. Run a calculation to see it here.
+        </div>
+      </div>
+    </div>
+    <p class="credits">Developed by Krishna Patel © 2025</p>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

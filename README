@@ -1,0 +1,38 @@
+# Woven Screen Weight Calculator
+
+A lightweight browser-based calculator used to estimate the weight (in kilograms) of woven wire screens for freight quotes. Built as a standalone HTML/CSS/JavaScript tool – no backend or server required.
+
+Originally developed for internal use at **Nepean Rubber & Plastics**, and suitable for SCS-style screens as well.
+
+## 🔧 Inputs
+
+- **Aperture (OPG)** – opening size in mm  
+- **Wire DIA** – wire diameter in mm  
+- **Width (Trim Dim 1)** – screen width in mm  
+- **Length (Trim Dim 2)** – screen length in mm  
+
+The tool applies the internal weight formula and returns:
+
+- **Total screen weight in kg (2 decimal places)**  
+- A rolling **calculation history** for the current browser session.
+
+## 🚀 How to Run
+
+1. Download or clone this repository.
+2. Open `index.html` in any modern browser (Chrome, Edge, Firefox, etc.).
+3. Enter the four measurements and click **Calculate Weight**.
+
+No installation or server configuration is required.
+
+
+## Related Project
+
+- [PU Screen Generator](https://github.com/PatelKrishna02/pu-screen-generator)
+
+
+## 👤 Developed By
+
+**Krishna Patel**  
+Nepean Rubber & Plastics – 2025
+
+
