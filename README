@@ -1,28 +1,58 @@
 # Woven Screen Weight Calculator
 
-A lightweight browser-based calculator used to estimate the weight (in kilograms) of woven wire screens for freight quotes. Built as a standalone HTML/CSS/JavaScript tool – no backend or server required.
+A lightweight browser-based tool for calculating the weight of woven wire screens used in manufacturing and freight quoting. Built with pure HTML, CSS, and JavaScript — no installation or backend required.
 
-Originally developed for internal use at **Nepean Rubber & Plastics**, and suitable for SCS-style screens as well.
+---
 
-## 🔧 Inputs
+## 🌐 Live Demo
 
-- **Aperture (OPG)** – opening size in mm  
-- **Wire DIA** – wire diameter in mm  
-- **Width (Trim Dim 1)** – screen width in mm  
-- **Length (Trim Dim 2)** – screen length in mm  
+🔗 **https://patelkrishna02.github.io/woven-weight-calculator/**
 
-The tool applies the internal weight formula and returns:
+Click the link above to use the calculator directly in your browser.
 
-- **Total screen weight in kg (2 decimal places)**  
-- A rolling **calculation history** for the current browser session.
+---
 
-## 🚀 How to Run
+## 📌 Features
 
-1. Download or clone this repository.
-2. Open `index.html` in any modern browser (Chrome, Edge, Firefox, etc.).
-3. Enter the four measurements and click **Calculate Weight**.
+- Instant weight calculation based on:
+  - Aperture (OPG)
+  - Wire Diameter (DIA)
+  - Screen Width (Trim Dim 1)
+  - Screen Length (Trim Dim 2)
+- Clean and modern UI
+- Calculation history stored in-session
+- Fully client-side — works offline
+- Ideal for manufacturing, quoting, and internal workflows
 
-No installation or server configuration is required.
+---
+
+## 📁 Project Structure
+
+index.html
+css/
+└── style.css
+js/
+└── main.js
+images/
+└── logo.png
+
+
+---
+
+## 🚀 How to Run Locally
+
+1. Download or clone the repository.
+2. Open **index.html** in any browser.
+3. Use the calculator instantly.
+
+Optional: Use VS Code + Live Server for development.
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
+
 
 
 ## Related Project
