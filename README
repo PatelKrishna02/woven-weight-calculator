@@ -26,7 +26,8 @@ This tool simplifies the process by allowing users to input key parameters and i
 - Clean and responsive user interface  
 - Session-based calculation history  
 - Fully client-side (no backend required)  
-- Works offline after load  
+- Works offline after load
+- Session-based calculation history (resets on page reload)
 
 ---
 
@@ -36,6 +37,10 @@ This tool simplifies the process by allowing users to input key parameters and i
 - JavaScript 
 
 ---
+
+## 🖼️ Screenshots
+### Calculator Interface
+
 
 ## 🚀 How to Run Locally
 1. Clone the repository  
