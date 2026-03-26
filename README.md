@@ -44,6 +44,8 @@ This tool simplifies the process by allowing users to input key parameters and i
 
 ![Calculation History](./CalculationHistory.png)
 
+The application allows users to input screen parameters, instantly calculate weight, and view recent calculations within the session for quick comparison.
+
 ---
 
 ## 🚀 How to Run Locally
@@ -58,6 +60,11 @@ css/
 └── style.css  
 js/  
 └── main.js  
+
+---
+
+Future Improvement:
+- Persist calculation history using localStorage for long-term tracking
 
 ---
 
